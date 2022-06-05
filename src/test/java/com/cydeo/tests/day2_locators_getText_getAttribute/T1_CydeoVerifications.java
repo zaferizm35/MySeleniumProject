@@ -1,5 +1,6 @@
 package com.cydeo.tests.day2_locators_getText_getAttribute;
 
+import com.cydeo.utilities.WebDriverFactory;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -15,6 +16,7 @@ public class T1_CydeoVerifications {
 
         //TC #1: Cydeo practice tool verifications
         //1. Open Chrome browser
+
         WebDriverManager.chromedriver().setup();
         WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();

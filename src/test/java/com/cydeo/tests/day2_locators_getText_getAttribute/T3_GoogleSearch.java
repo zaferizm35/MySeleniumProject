@@ -22,7 +22,7 @@ public class T3_GoogleSearch {
         //3- Write “apple” in search box
         //4- PRESS ENTER using Keys.ENTER
         WebElement googleSearchBox = driver.findElement(By.name("q"));
-        googleSearchBox.sendKeys("apple" + Keys.ENTER);
+
 
         //5- Verify title:
         //Expected: Title should start with “apple” word

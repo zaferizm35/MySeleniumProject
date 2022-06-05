@@ -25,6 +25,7 @@ public class T2_Linktext_Practice {
         WebElement abTestLink = driver.findElement(By.linkText("A/B Testing"));
         abTestLink.click();
 
+
         //4- Verify title is:
         //Expected: No A/B Test
         String expectedTitle = "No A/B Test";
